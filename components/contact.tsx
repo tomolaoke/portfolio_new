@@ -149,7 +149,7 @@ export function Contact() {
             <motion.div className="space-y-4" variants={containerVariants}>
               <motion.div variants={itemVariants}>
                 <h4 className="text-xl font-bold">Email</h4>
-                <p className="text-muted-foreground">tommola.oke@gmail.com || tomola.oke@verdac.tech</p>
+                <p className="text-muted-foreground">tommola.oke@gmail.com <br>tomola.oke@verdac.tech</p>
               </motion.div>
 
               <motion.div variants={itemVariants}>
