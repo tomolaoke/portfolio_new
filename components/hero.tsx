@@ -35,7 +35,7 @@ export function Hero() {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ delay: 0.3, duration: 0.8 }}
                 >
-                  Hello I'm
+                  Howdy! I'm
                 </motion.span>
                 <motion.span
                   className="block"
@@ -43,7 +43,7 @@ export function Hero() {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ delay: 0.5, duration: 0.8 }}
                 >
-                  Boluwatife Ade-ojo.
+                  ΞDΛ°-Tomola Oke.
                 </motion.span>
                 <motion.span
                   className="block text-primary"
@@ -52,7 +52,7 @@ export function Hero() {
                   transition={{ delay: 0.7, duration: 0.8 }}
                 >
                   <TypingAnimation
-                    words={["Software Engineer", "Cloud Architect","Al engineer", "DevOps Engineer", "Data Architect"]}
+                    words={["Backend Engineer JAVA", "Software Engineer MERN stack", "Phyton", "Al Prompt Engineer", "Continously Evolving..."]}
                     typingSpeed={150}
                     deletingSpeed={100}
                     delayBetweenWords={1500}
@@ -65,9 +65,10 @@ export function Hero() {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 1.1, duration: 0.8 }}
               >
-                A versatile software engineer with a strong focus on backend development and system architecture. I'm
-                equally passionate about technology entrepreneurship, running a successful business focused on the sale
-                of gadgets and accessories.
+                As a multifaceted software engineer specializing in Java backend development, particularly within fintech,
+                I excel in system architecture and the MERN stack for fullstack solutions. My expertise extends to Python,
+                AI, and Machine Learning. Beyond engineering, I lead as a World Team Member in business development with NeoLife,
+                a top network marketing company headquartered in the USA.
               </motion.p>
             </div>
 
@@ -79,12 +80,12 @@ export function Hero() {
             >
               {[
                 {
-                  href: "https://linkedin.com/in/boluwatife-ade-ojo",
+                  href: "https://linkedin.com/in/tomolaoke",
                   icon: <Linkedin className="w-5 h-5" />,
                   label: "LinkedIn",
                 },
-                { href: "https://github.com/bolexs", icon: <Github className="w-5 h-5" />, label: "GitHub" },
-                { href: "https://twitter.com/bolex396", icon: <Twitter className="w-5 h-5" />, label: "Twitter" },
+                { href: "https://github.com/tomolaoke", icon: <Github className="w-5 h-5" />, label: "GitHub" },
+                { href: "https://twitter.com/eda__xx", icon: <Twitter className="w-5 h-5" />, label: "Twitter" },
               ].map((social, index) => (
                 <motion.div key={social.label} whileHover={{ scale: 1.1, y: -5 }} whileTap={{ scale: 0.95 }}>
                   <Link
