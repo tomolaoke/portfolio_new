@@ -114,7 +114,7 @@ export function Header() {
                 className="flex items-center space-x-2"
                 rel="noreferrer"
               >
-                <span>Resume</span>
+                <span>Resume | CV</span>
                 <Download className="w-4 h-4" />
               </a>
             </Button>
