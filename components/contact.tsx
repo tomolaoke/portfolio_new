@@ -138,10 +138,10 @@ export function Contact() {
           <motion.div className="space-y-6" variants={containerVariants}>
             <motion.div variants={itemVariants}>
               <h3 className="text-2xl font-bold mb-4">
-                Let's <span className="text-primary">build</span> Something special
+                Let's <span className="text-primary">build & create</span> Something unique!
               </h3>
               <p className="text-muted-foreground mb-8">
-                I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable
+                I strive to challenge creative boundaries to design captivating, intuitive, and unforgettable
                 interactive experiences.
               </p>
             </motion.div>
@@ -149,7 +149,7 @@ export function Contact() {
             <motion.div className="space-y-4" variants={containerVariants}>
               <motion.div variants={itemVariants}>
                 <h4 className="text-xl font-bold">Email</h4>
-                <p className="text-muted-foreground">info@bobas.tech</p>
+                <p className="text-muted-foreground">tommola.oke@gmail.com || tomola.oke@verdac.tech</p>
               </motion.div>
 
               <motion.div variants={itemVariants}>
@@ -157,12 +157,12 @@ export function Contact() {
                 <div className="flex items-center space-x-4 mt-2">
                   {[
                     {
-                      href: "https://linkedin.com/in/boluwatife-ade-ojo",
+                      href: "https://linkedin.com/in/tomolaoke",
                       icon: <Linkedin className="w-5 h-5" />,
                       label: "LinkedIn",
                     },
-                    { href: "https://github.com/bolexs", icon: <Github className="w-5 h-5" />, label: "GitHub" },
-                    { href: "https://twitter.com/bolex396", icon: <Twitter className="w-5 h-5" />, label: "Twitter" },
+                    { href: "https://github.com/tomolaoke", icon: <Github className="w-5 h-5" />, label: "GitHub" },
+                    { href: "https://twitter.com/eda__xx", icon: <Twitter className="w-5 h-5" />, label: "Twitter" },
                   ].map((social) => (
                     <motion.div key={social.label} whileHover={{ scale: 1.1, y: -3 }} whileTap={{ scale: 0.95 }}>
                       <Link
