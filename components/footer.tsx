@@ -22,7 +22,7 @@ export function Footer() {
             transition={{ delay: 0.2, duration: 0.5 }}
             viewport={{ once: true }}
           >
-            © {currentYear} ΞDΛ°-Tomola </richards> Oke. All rights reserved.
+            © {currentYear} ΞDΛ°-Tomola Oke. All rights reserved.
           </motion.p>
           <motion.p
             className="text-muted-foreground mt-2 md:mt-0"
