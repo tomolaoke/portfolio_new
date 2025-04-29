@@ -21,21 +21,21 @@ interface Project {
 const projects: Project[] = [
   {
     id: "01",
-    title: "FleetManager Tech",
+    title: "QRcode Generation Payment API",
     description:
       "Advanced fleet management technology platform with predictive maintenance and analytics capabilities.",
     image: "/projects/fleetmanager-tech.png",
-    url: "https://fleetmanager.tech",
-    technologies: ["Next.js", "React", "Python", "FastAPI", "TailwindCSS"],
+    url: "https://github.com/tomolaoke/QRcode-payment-api",
+    technologies: ["Java", "Springboot", "PostgresSQL", "RESTful API"],
   },
   {
     id: "02",
-    title: "Quizlink",
+    title: "SafeNet9Ja",
     description:
-      "Interactive quiz platform for creating, sharing, and participating in quizzes for educational and entertainment purposes.",
+      "Worked with a team on the backend of the platform focused on community safety and disaster management in Nigeria, that uses AI and machine learning to provide real-time alerts, predictive risk analysis, and direct communication with emergency services.",
     image: "/projects/quizlink.png",
-    url: "https://quizlink.net",
-    technologies: ["React", "Python", "FastAPI", "Postgres", "Tailwind CSS"],
+    url: "https://safenet9ja.onrender.com",
+    technologies: ["JavaScript", "Node.ja", "SendGrid", "Twilio"],
   },
 ]
 
