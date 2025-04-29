@@ -44,7 +44,7 @@ export function Contact() {
   function SubmitButton() {
     return (
       <Button type="submit" className="w-full group" disabled={isSubmitting}>
-        <span className="mr-2">{isSubmitting ? "SENDING..." : "GET IN TOUCH"}</span>
+        <span className="mr-2">{isSubmitting ? "SENDING..." : "CONNECT WITH ME"}</span>
         <motion.span
           animate={{ x: isSubmitting ? [0, 5, 0] : 0 }}
           transition={{ repeat: isSubmitting ? Number.POSITIVE_INFINITY : 0, duration: 1 }}
@@ -118,7 +118,7 @@ export function Contact() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-5xl font-bold inline-block">
-            Get In <span className="text-primary">Touch</span>
+            Connect <span className="text-primary">With Me</span>
           </h2>
           <motion.div
             className="h-1 w-20 bg-primary mx-auto mt-4"
@@ -138,7 +138,7 @@ export function Contact() {
           <motion.div className="space-y-6" variants={containerVariants}>
             <motion.div variants={itemVariants}>
               <h3 className="text-2xl font-bold mb-4">
-                Let's <span className="text-primary">build & create</span> Something unique!
+                Let's <span className="text-primary">craft</span> Something unique!
               </h3>
               <p className="text-muted-foreground mb-8">
                 I strive to challenge creative boundaries to design captivating, intuitive, and unforgettable
@@ -149,7 +149,7 @@ export function Contact() {
             <motion.div className="space-y-4" variants={containerVariants}>
               <motion.div variants={itemVariants}>
                 <h4 className="text-xl font-bold">Email</h4>
-                <p className="text-muted-foreground">tommola.oke@gmail.com || tomola.oke@verdac.tech</p>
+                <p className="text-muted-foreground">tommola.oke@gmail.com <br>tomola.oke@verdac.tech</p>
               </motion.div>
 
               <motion.div variants={itemVariants}>
