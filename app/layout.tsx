@@ -12,8 +12,8 @@ const outfit = Outfit({
 })
 
 export const metadata: Metadata = {
-  title: "Boluwatife Ade-ojo - Software Engineer",
-  description: "Boluwatife Ade-ojo, a software engineer based in Nigeria focused on building innovative solutions.",
+  title: "ΞDΛ°-Tomola Oke - Software Engineer",
+  description: "ΞDΛ°-Tomola Oke, a software engineer, Backend focused. I build things for the web and beyond..",
     generator: 'v0.dev'
 }
 
