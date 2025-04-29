@@ -22,7 +22,7 @@ export function Footer() {
             transition={{ delay: 0.2, duration: 0.5 }}
             viewport={{ once: true }}
           >
-            © {currentYear} Boluwatife Ade-ojo. All rights reserved.
+            © {currentYear} ΞDΛ°-Tomola </richards> Oke. All rights reserved.
           </motion.p>
           <motion.p
             className="text-muted-foreground mt-2 md:mt-0"
@@ -31,7 +31,7 @@ export function Footer() {
             transition={{ delay: 0.3, duration: 0.5 }}
             viewport={{ once: true }}
           >
-            Built with Care ❤️
+            Crafted with Precision and Heart ❤️
           </motion.p>
         </div>
       </div>
